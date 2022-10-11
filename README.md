@@ -25,14 +25,14 @@ Imagine que você foi contratado para desenvolver parte de uma landing page com 
 
 ### Clonar repositório
 ```bash
-$ git clone https://github.com/AndersonGama31/Omnix-Test.git
+$ git clone https://github.com/AndersonGama31/omnix.git
 ```
 
 ### 💻 Startar Projeto
 
 ```bash
 # Vá para a pasta do projeto
-$ cd IgnisFlix
+$ cd omnix
 # Instale as dependências
 $ npm install
 # Rode a aplicação
@@ -49,18 +49,7 @@ Acesse: http://localhost:3000/
 
 Você pode acessar o projeto finalizado por meio deste link:
 
--[Omnix](https://omnix.vercel.app/)
+-[Omnix](https://omnix-digital.web.app/)
 
-### O projeto possui:
-
-- Versão Desktop
-- Página de Login com AUtenticação
-- Token de Autenticação fica salvo nos cookies
-- Consumo de API de filmes com o token
-- Barra de busca dinâmica
-- Botão de Ver Mais onde mais filmes são carregados
-- Nome do usuário dinâmico
-- Deploy no Vercel
-E muito mais! 
 
 Feito por Anderson Gama
