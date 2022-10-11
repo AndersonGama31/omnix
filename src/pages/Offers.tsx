@@ -6,6 +6,7 @@ import offers from "../data/offers.json";
 import { useContext } from "react";
 import { UserContext } from "../contexts/UserContext";
 import { useNavigate } from "react-router-dom";
+import Address from "../components/Address";
 
 export default function Offers() {
 
@@ -29,6 +30,7 @@ export default function Offers() {
   return (
     <>
       <Navbar />
+      <Address />
       <Content>
       {offers.map((offer, index) => (
             <Cards key={index} offer={offer} />
