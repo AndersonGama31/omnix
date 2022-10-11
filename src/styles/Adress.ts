@@ -1,11 +1,13 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
-h1 {
-  padding: 15px;
+p, span{
+  padding: 10px;
 }
-  section {
+    background-color: antiquewhite;
     display: flex;
-    flex-wrap: wrap;
-  }
+    width: auto;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 30px;
 `;

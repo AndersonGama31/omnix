@@ -1,20 +1,29 @@
 [
-  {
-      "title": "100% fibra",
-      "plan": "350 mega",
-      "info": "Instalação grátis",
-      "price": "R$ 99,99"
-  },
-  {
-      "title": "100% fibra",
-      "plan": "400 mega",
-      "info": "Instalação grátis",
-      "price": "R$ 139,99"
-  },
-  {
-      "title": "100% fibra",
-      "plan": "5000 mega",
-      "info": "Instalação grátis",
-      "price": "R$ 169,99"
-  }
-]
+    {
+        "title": "100% fibra",
+        "plan": "350 mega",
+        "info": "Instalação grátis",
+        "info2": "Wi-fi grátis 5G",
+        "info3": "175 mega de Upload",
+        "info4": "350 mega de Download",
+        "price": "R$ 99,99"
+    },
+    {
+        "title": "100% fibra",
+        "plan": "400 mega",
+        "info": "Instalação grátis",
+        "info2": "Wi-fi grátis 5G",
+        "info3": "175 mega de Upload",
+        "info4": "400 mega de Download",
+        "price": "R$ 139,99"
+    },
+    {
+        "title": "100% fibra",
+        "plan": "500 mega",
+        "info": "Instalação grátis",
+        "info2": "Wi-fi grátis 5G",
+        "info3": "175 mega de Upload",
+        "info4": "500 mega de Download",
+        "price": "R$ 169,99"
+    }
+  ]

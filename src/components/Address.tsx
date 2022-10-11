@@ -6,7 +6,7 @@ const Address = () => {
   const { address } = useContext(UserContext);
   const addressInfos = [
     { label: "Estado", value: address.uf },
-    { label: "Localidade", value: address.localidade },
+    { label: "Cidade", value: address.localidade },
     { label: "Bairro", value: address.bairro },
     { label: "Logradouro", value: address.logradouro },
     { label: "Complemento", value: address.complemento },
@@ -15,15 +15,13 @@ const Address = () => {
 
   return (
     <Section>
-      <h1>Endereço</h1>
-      <section>
+      <h1>Seus dados:</h1>
         {addressInfos.map((item, index) => (
           <div key={index}>
             <p>{item.label}</p>
             <span>{item.value ? item.value : "Não encontrado"}</span>
           </div>
         ))}
-      </section>
     </Section>
   );
 }

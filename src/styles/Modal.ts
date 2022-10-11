@@ -16,22 +16,24 @@ background-color: transparent;
 
 
 export const Container = styled.div`  
-height: 30vh;
-  width: 50vh;
+height: 35vh;
+  width: 60vh;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-size: cover;
-  background-color: #003f92;
+  background-color: #fff;
   border-radius: 20px;
   margin-left: 50px;
+  margin-top: 50px;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
   h1 {
-    color: #fff;
+    color: #003f92;
   }
   p {
-    color: #fff;
+    color: #003f92;
     margin-top: 10px;
   }
 
