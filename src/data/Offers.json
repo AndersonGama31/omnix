@@ -1,0 +1,20 @@
+[
+  {
+      "title": "100% fibra",
+      "plan": "350 mega",
+      "info": "Instalação grátis",
+      "price": "R$ 99,99"
+  },
+  {
+      "title": "100% fibra",
+      "plan": "400 mega",
+      "info": "Instalação grátis",
+      "price": "R$ 139,99"
+  },
+  {
+      "title": "100% fibra",
+      "plan": "5000 mega",
+      "info": "Instalação grátis",
+      "price": "R$ 169,99"
+  }
+]
