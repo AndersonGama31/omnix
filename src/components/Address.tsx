@@ -15,12 +15,12 @@ const Address = () => {
 
   return (
     <Section>
-        {addressInfos.map((item, index) => (
-          <div key={index}>
-            <p><strong>{item.label}</strong></p>
-            <span>{item.value ? item.value : "Não encontrado"}</span>
-          </div>
-        ))}
+      {addressInfos.map((item, index) => (
+        <div key={index}>
+          <p><strong>{item.label}</strong></p>
+          <span>{item.value ? item.value : "Não encontrado"}</span>
+        </div>
+      ))}
     </Section>
   );
 }

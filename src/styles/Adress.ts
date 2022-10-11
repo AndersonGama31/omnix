@@ -10,5 +10,5 @@ p, span{
     align-items: center;
     width: auto;
     height: 80px;
-margin-bottom: 30px;
+    margin-bottom: 30px;
 `;

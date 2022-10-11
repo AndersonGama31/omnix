@@ -46,7 +46,7 @@ export default function Modal() {
           reverseOrder={false}
         />
         <h1>Seja Bem-vindo(a)!</h1>
-      <p><i>Somos a <strong>Omnix</strong>! Aqui você a melhor internet da sua região!</i></p>
+      <p><i>Somos a <strong>Omnix</strong>! Aqui você encontra a melhor internet da sua região!</i></p>
         <ContainerInput>
           <Input type="text"
             placeholder='Digite seu CEP...'
