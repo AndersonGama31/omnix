@@ -3,11 +3,13 @@ import { FiSearch } from "react-icons/fi";
 import { Button, Container, ContainerInput, Input } from '../styles/Modal';
 import toast, { Toaster } from 'react-hot-toast';
 import { UserContext } from '../contexts/UserContext';
+import { useNavigate } from "react-router-dom";
 
 
-const Modal = () => {
+export default function Modal() {
   const [input, setInput] = useState('');
   const { setAddress } = useContext(UserContext);
+  const navigate = useNavigate();
 
 
   async function handleSearch(e: FormEvent<HTMLFormElement>) {
@@ -26,7 +28,9 @@ const Modal = () => {
     if (response.erro) {
       toast.error("Endereço não encontrado, por favor digite o CEP novamente!")
     } else {
+      console.log(response);
       setAddress(response);
+      navigate("/offers")
     } 
   }
 
@@ -59,5 +63,3 @@ const Modal = () => {
     </form>
   )
 }
-
-export default Modal

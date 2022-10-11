@@ -1,13 +1,13 @@
+import { Props } from "../models/Props";
 import { Container } from "../styles/Cards";
 
-const Cards = () => {
+export default function Cards ({ offer } : Props) {
   return (
     <Container>
-      <p>100% Fibra</p>
-      <h1>350</h1>
-      <h1>mega</h1>
+      <p>{offer.title}</p>
+      <h1>{offer.plan}</h1>
+      <h1>{offer.info}</h1>
+      <h1>{offer.price}</h1>
     </Container>
   );
 };
-
-export default Cards;
