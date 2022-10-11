@@ -1,47 +1,66 @@
-# Getting Started with Create React App
+<h1 align="center">Omnix Digital Experience</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="./public/pagina1.jpeg" alt="Página Home">
 
-## Available Scripts
+<img src="./public/pagina2.jpeg" alt="Página de Ofertas">
 
-In the project directory, you can run:
 
-### `npm start`
+## 🚀 Tecnologias
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [Next](https://github.com/vercel/next.js)
+- [Javascript](https://github.com/microsoft/Javascript)
+- [Styled Components](https://github.com/styled-components/styled-components)
+- [AuthContext](https://blog.rocketseat.com.br/autenticacao-no-react-native-reactjs-com-context-api-hooks/)
 
-### `npm test`
+## 💻 Projeto Finalizado
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Imagine que você foi contratado para desenvolver parte de uma landing page com foco na venda de planos de internet. O sistema de checkout
+ já foi desenvolvido, então você deve desenvolver a página Home e de Ofertas. Ao acessar o site, o cliente se depara com uma mensagem de boas vindas
+ e um formulário requisitando seu cep para prosseguir. Você deve utilizar a API da ViaCep para captar os dados do endereço. Ao avançar, é mostrada uma
+ tela com uma mensagem contendo endereço informado, as ofertas dispovíveis para o cliente e um botão fixo no canto inferior direito da tela com a mensagem
+ “Ops, errei meu cep!”, que, ao ser clicado, volta para a página anterior.
+---
 
-### `npm run build`
+### Clonar repositório
+```bash
+$ git clone https://github.com/AndersonGama31/Omnix-Test.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 💻 Startar Projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+# Vá para a pasta do projeto
+$ cd IgnisFlix
+# Instale as dependências
+$ npm install
+# Rode a aplicação
+$ npm run dev
+```
+Acesse: http://localhost:3000/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 📁 Páginas
 
-### `npm run eject`
+- **Home:** A página inicial do site que precisa que o campo de texto seja preenchido com um CEP válido.
+- **Offers:** A página apresenta os dados consumidos pela API [Via CEP](https://viacep.com.br), além de alguns cards com planos de Internet.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### ✅ Deploy do Projeto
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Você pode acessar o projeto finalizado por meio deste link:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+-[Omnix](https://omnix.vercel.app/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### O projeto possui:
 
-## Learn More
+- Versão Desktop
+- Página de Login com AUtenticação
+- Token de Autenticação fica salvo nos cookies
+- Consumo de API de filmes com o token
+- Barra de busca dinâmica
+- Botão de Ver Mais onde mais filmes são carregados
+- Nome do usuário dinâmico
+- Deploy no Vercel
+E muito mais! 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# omnix
+Feito por Anderson Gama
