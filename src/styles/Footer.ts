@@ -28,6 +28,7 @@ display: flex;
   font-size: 25px;
   margin-left: 50px;
   color: #fff;
+  cursor: pointer;
 ;`
 
 

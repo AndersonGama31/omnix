@@ -15,10 +15,9 @@ const Address = () => {
 
   return (
     <Section>
-      <h1>Seus dados:</h1>
         {addressInfos.map((item, index) => (
           <div key={index}>
-            <p>{item.label}</p>
+            <p><strong>{item.label}</strong></p>
             <span>{item.value ? item.value : "Não encontrado"}</span>
           </div>
         ))}
@@ -27,4 +26,3 @@ const Address = () => {
 }
 
 export default Address;
-

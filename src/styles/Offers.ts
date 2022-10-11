@@ -28,12 +28,19 @@ export const ButtonBack = styled.button`
   width: 200px;
   height: 60px;
   border-radius: 10px;
-  background-color: #e09158;
+  background-color: #003f92;
   color: #fff;
   font-weight: bold;
   margin-bottom: 30px;
   float: right;
-  margin-right: 20px;
+  margin-right: 40px;
+  font-size: 18px;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+  &:hover {
+    color: #003f92;
+    background-color: #fff;
+    transition: 700ms;
+  }
 `;
 
 export const Info = styled.div`
