@@ -9,8 +9,8 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [Next](https://github.com/vercel/next.js)
-- [Javascript](https://github.com/microsoft/Javascript)
+- [React](https://github.com/vercel/react.js)
+- [Typescript](https://github.com/microsoft/Typescript)
 - [Styled Components](https://github.com/styled-components/styled-components)
 - [AuthContext](https://blog.rocketseat.com.br/autenticacao-no-react-native-reactjs-com-context-api-hooks/)
 
