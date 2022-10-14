@@ -36,7 +36,7 @@ $ cd omnix
 # Instale as dependências
 $ npm install
 # Rode a aplicação
-$ npm run dev
+$ npm start
 ```
 Acesse: http://localhost:3000/
 
